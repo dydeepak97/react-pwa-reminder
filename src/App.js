@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Timer from './components/Timer/Timer';
+import Reminder from './container/Reminder/Reminder';
 
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <Reminder />
     </div>
   );
 }

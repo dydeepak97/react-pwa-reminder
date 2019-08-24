@@ -28,6 +28,8 @@ export default function TimeField(props) {
     if(inputError){
       setInputError(false);
     }
+
+    // Call prop method to start timer
   }
 
   return (
